@@ -3,6 +3,9 @@
   <name>firstBuildConfiguration</name>
   <description>Checking out configuration</description>
   <settings>
+    <disabled-settings>
+      <setting-ref ref="remoteRunOnBranch" />
+    </disabled-settings>
     <parameters />
     <build-runners>
       <runner id="RUNNER_1" name="" type="MSBuild">
