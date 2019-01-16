@@ -5,7 +5,7 @@
   <settings>
     <parameters />
     <build-runners>
-      <runner id="RUNNER_1" name="firstBuildStep" type="MSBuild">
+      <runner id="RUNNER_1" name="" type="MSBuild">
         <parameters>
           <param name="build-file-path" value="WebApplication1/WebApplication1.sln" />
           <param name="dotNetCoverage.NCover.HTMLReport.File.Sort" value="0" />
